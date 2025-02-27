@@ -5,3 +5,6 @@
   font-family: "Outfit", "Helvetica", "Ariel", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
