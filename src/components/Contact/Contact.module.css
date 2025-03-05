@@ -46,7 +46,7 @@
   letter-spacing: 1.5px;
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 900px) {
   .container {
     flex-direction: column;
     gap: 23px;
@@ -59,6 +59,27 @@
   }
 
   .links {
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align the entire list */
+    gap: 20px; /* Adjust spacing between links */
+  }
+
+  .link {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping */
+    justify-content: center; /* Center align content */
+    gap: 10px; /* Adjust spacing between items */
+    text-align: center; /* Center align the text */
+  }
+
+  .link img {
+    width: 24px; /* Adjust icon size for smaller screens */
+    height: auto;
+  }
+
+  .link a {
+    font-size: 26px; /* Adjust font size if needed */
+    text-align: center; /* Ensure text is center-aligned */
   }
 }

@@ -16,7 +16,7 @@ export const Hero = () => {
 
       <img
         className={styles.heroImg}
-        src="/assets/hero/final.png"
+        src="/assets/hero/finalred.png"
         alt="Hero Image of Me"
       />
       <div className={styles.topBlur} />
