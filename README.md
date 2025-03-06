@@ -38,7 +38,7 @@ Implement a blog section to share insights and experiences.
 Integrate a contact form with backend functionality.
 
 ## 🧑‍💻 Author
-Nishank Kose
+**Nishank Kose**
 
 Feel free to explore, provide feedback, or reach out to me via the website!
 
